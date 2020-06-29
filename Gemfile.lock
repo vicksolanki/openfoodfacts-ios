@@ -22,6 +22,7 @@ GEM
     aws-sigv4 (1.2.0)
       aws-eventstream (~> 1, >= 1.0.2)
     babosa (1.0.3)
+    blockenspiel (0.5.0)
     claide (1.0.3)
     colored (1.2)
     colored2 (3.1.2)
@@ -158,6 +159,8 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
+    versionomy (0.5.0)
+      blockenspiel (~> 0.5)
     word_wrap (1.0.0)
     xcodeproj (1.16.0)
       CFPropertyList (>= 2.3.3, < 4.0)
@@ -176,6 +179,7 @@ PLATFORMS
 DEPENDENCIES
   fastlane
   fastlane-plugin-sentry
+  versionomy
 
 BUNDLED WITH
    1.17.2
